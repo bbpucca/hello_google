@@ -1,0 +1,151 @@
+body{
+  font-family: arial, sans-serif;
+  font-size: small;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width:100%;
+  text-align: center;
+  }
+
+ul {
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+li a {
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: small;
+}
+
+li a:hover{
+  text-decoration: underline;
+  color: #757575;
+}
+
+.icons {
+  display: inline-block;
+  color: white;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding-top: 130px;
+  margin:0 auto;
+}
+
+input{
+  width: 600px;
+  height: 35px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px #e3e3e3;
+  border-radius: 2px;
+  font-size: medium;
+}
+
+input:focus{
+  outline: none;
+}
+
+.buttons{
+  margin-bottom: 50px;
+}
+
+button{
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  padding: 16px;
+}
+
+button:hover{
+  border:1px solid #757575;
+  color: black;
+  }
+
+.icons{
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+}
+
+.phid{
+  margin-right: 25px;
+  border-radius: 50%;
+}
+
+#footer{
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border: solid #e3e3e3 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  color: #757575;
+  }
+
+
+#footer2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+  align-items: center;
+  background-color: #f2f2f2;
+  border: solid #e3e3e3 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  color: #757575;
+  }
+
+.open{
+  text-align: center;
+  margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link{
+    color: #757575;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p a:link{
+  color: blue;
+}
+
+.logo-google{
+  margin-bottom: 10px;
+}
